@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SurahItemContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvSurahName"
+        style="@style/SurahName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Al-Fatihah" />
+
+    <TextView
+        android:id="@+id/tvSurahNumber"
+        style="@style/SurahNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surah No: 1" />
+
+    <TextView
+        android:id="@+id/tvAyahCount"
+        style="@style/AyahCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Ayat: 7" />
+
+    <TextView
+        android:id="@+id/tvSurahMeaning"
+        style="@style/SurahMeaning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pembukaan" />
+</LinearLayout>
