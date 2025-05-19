@@ -1,4 +1,4 @@
-package com.example.tryout;
+package com.example.tryout.ui;
 
 import android.os.Bundle;
 
@@ -9,7 +9,12 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 
+import com.example.tryout.DashboardFragment;
+import com.example.tryout.HomeFragment;
+import com.example.tryout.NotificationsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import com.example.tryout.R;
 
 public class MainActivity extends AppCompatActivity {
 
